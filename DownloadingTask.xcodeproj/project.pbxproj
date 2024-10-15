@@ -14,6 +14,9 @@
 		493AAFBA2CBF3102008ABA00 /* DownloadingTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AAFB92CBF3102008ABA00 /* DownloadingTaskTests.swift */; };
 		493AAFC42CBF3102008ABA00 /* DownloadingTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AAFC32CBF3102008ABA00 /* DownloadingTaskUITests.swift */; };
 		493AAFC62CBF3102008ABA00 /* DownloadingTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AAFC52CBF3102008ABA00 /* DownloadingTaskUITestsLaunchTests.swift */; };
+		493AAFD42CBF3139008ABA00 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AAFD32CBF3138008ABA00 /* Home.swift */; };
+		493AAFD62CBF317A008ABA00 /* DownloadProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AAFD52CBF317A008ABA00 /* DownloadProgressView.swift */; };
+		493AAFD92CBF31A9008ABA00 /* DownloadtaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AAFD82CBF31A9008ABA00 /* DownloadtaskModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		493AAFBF2CBF3102008ABA00 /* DownloadingTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownloadingTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		493AAFC32CBF3102008ABA00 /* DownloadingTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingTaskUITests.swift; sourceTree = "<group>"; };
 		493AAFC52CBF3102008ABA00 /* DownloadingTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		493AAFD32CBF3138008ABA00 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		493AAFD52CBF317A008ABA00 /* DownloadProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadProgressView.swift; sourceTree = "<group>"; };
+		493AAFD82CBF31A9008ABA00 /* DownloadtaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadtaskModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 		493AAFA72CBF3100008ABA00 /* DownloadingTask */ = {
 			isa = PBXGroup;
 			children = (
+				493AAFD72CBF3193008ABA00 /* ViewModel */,
+				493AAFD22CBF311C008ABA00 /* View */,
 				493AAFA82CBF3100008ABA00 /* DownloadingTaskApp.swift */,
 				493AAFAA2CBF3100008ABA00 /* ContentView.swift */,
 				493AAFAC2CBF3102008ABA00 /* Assets.xcassets */,
@@ -125,6 +133,23 @@
 				493AAFC52CBF3102008ABA00 /* DownloadingTaskUITestsLaunchTests.swift */,
 			);
 			path = DownloadingTaskUITests;
+			sourceTree = "<group>";
+		};
+		493AAFD22CBF311C008ABA00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				493AAFD32CBF3138008ABA00 /* Home.swift */,
+				493AAFD52CBF317A008ABA00 /* DownloadProgressView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		493AAFD72CBF3193008ABA00 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				493AAFD82CBF31A9008ABA00 /* DownloadtaskModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				493AAFD92CBF31A9008ABA00 /* DownloadtaskModel.swift in Sources */,
 				493AAFAB2CBF3100008ABA00 /* ContentView.swift in Sources */,
+				493AAFD62CBF317A008ABA00 /* DownloadProgressView.swift in Sources */,
+				493AAFD42CBF3139008ABA00 /* Home.swift in Sources */,
 				493AAFA92CBF3100008ABA00 /* DownloadingTaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
